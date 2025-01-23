@@ -1,38 +1,38 @@
 [
     {
-        "image": "../assets/apple.png",
+        "image": "assets/apple.png",
         "name": "apple"
     },
     {
-        "image": "../assets/car.png",
+        "image": "assets/car.png",
         "name": "car"
     },
     {
-        "image": "../assets/cat.png",
+        "image": "assets/cat.png",
         "name": "cat"
     },
     {
-        "image": "../assets/cherry.png",
+        "image": "assets/cherry.png",
         "name": "cherry"
     },
     {
-        "image": "../assets/clown.png",
+        "image": "assets/clown.png",
         "name": "clown"
     },
     {
-        "image": "../assets/fish.png",
+        "image": "assets/fish.png",
         "name": "fish"
     },
     {
-        "image": "../assets/rose.png",
+        "image": "assets/rose.png",
         "name": "rose"
     },
     {
-        "image": "../assets/sun.png",
+        "image": "assets/sun.png",
         "name": "sun"
     },
     {
-        "image": "../assets/umbrella.png",
+        "image": "assets/umbrella.png",
         "name": "umbrella"
-    },
+    }
 ]

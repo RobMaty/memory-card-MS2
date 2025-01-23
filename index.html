@@ -1,21 +1,19 @@
 <!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <meta name="description" content="Experience some adventurous activities in Transylvania's Wilderness!">
-    <meta name="keywords" content="card, game">
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>Memory Card Game</title>
     <link rel="stylesheet" type="text/css" href="style.css">
-    <title>CardGame</title>
-</head>
-<body>
-    <h1> Remember the Card!</h1>
-    <div class="grid-container"></div>
+  </head>
+  <body>
+    <h1>Memory Cards</h1>
+    <div class="grid-container">
+    </div>
     <p>Score: <span class="score"></span></p>
     <div class="actions">
-        <button coclick="restart()">Restart</button>
+        <button onclick="restart()">Restart</button>
     </div>
+    <audio id="flipSound" src="path/to/your/flip.mp3"></audio>
     <script src="index.js"></script>
-</body>
+  </body>
 </html>
