@@ -52,3 +52,20 @@ p {
 .card.flipped {
     transform: rotateY(180deg);
 }
+
+.fronnt,.back {
+    backface-visibility: hidden;
+    position: absolute;
+    border-radius: 10px;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+}
+
+.card .fronnt {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transform: rotateY(180deg);
+}
