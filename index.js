@@ -9,7 +9,7 @@ document.querySelector(".score").textContent = score;
 fetch("data/cards.json")
   .then((res) => res.json())
   .then((data) => {
-    cards = [...data, ...data]; // Duplicate cards for matching
+    cards = [...data, ...data];
     shuffleCards();
     generateCards();
   });
