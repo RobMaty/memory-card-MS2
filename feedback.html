@@ -3,11 +3,43 @@
     <head> <meta charset="utf-8">
         <title>Guess the pair</title>
         <link rel="stylesheet" type="text/css" href="style.css">
+        <script src="https://kit.fontawesome.com/6c3e1ab7a6.js" crossorigin="anonymous"></script>
     </head>
     <body>
         <header>
             <a href="index.html">
                 <h2 id="logo">Back to the game!</h2>
             </a>
+            <div>
+                <form method="POST" action="https://formdump.codeinstitute.net/" class="signup-form">
+                    <h2>Tell us what you think about the game!!</h2>
+                    <label for="fname">First Name</label>
+                    <input class="text-input" id="fname" type="text" name="first_name" required>
+                    <label for="lname">Last Name</label>
+                    <input class="text-input" id="lname" type="text" name="last_name" required>
+                    <label for="email">Email Address</label>
+                    <input class="text-input" id="email" type="email" name="email_address" required>
+                    <label for="requirments">Tell us about your experience with our game</label>
+                    <textarea id="requirments" name="requirments" rows="5" cols="40"></textarea>
+                    <br>
+                    <input class="join-button" type="submit" value="Send">
+                </form>
+            </div>
     </body>
+    <footer>
+        <ul class="social-networks">
+          <li>
+              <a class="facebook" href="https://www.facebook.com" target="_blank" aria-label="facebook page of our website"><i class="fa-brands fa-square-facebook"></i></a>
+          </li>
+          <li>
+              <a class="twitter" href="https://www.twitter.com" target="_blank" aria-label="twitter page of our website"><i class="fa-brands fa-square-twitter"></i></a>
+          </li>
+          <li>
+              <a class="instagram" href="https://www.instagram.com" target="_blank" aria-label="instagram page of our website"><i class="fa-brands fa-square-instagram"></i></a>
+          </li>
+          <li>
+              <a class="youtube" href="https://www.youtube.com" target="_blank" aria-label="youtube page of our website"><i class="fa-brands fa-square-youtube"></i></a>
+          </li>
+      </ul>
+      </footer>
 </html>
