@@ -36,6 +36,10 @@ Memory Match Card is design to provide fun for all ages while helping players im
 ### Color Scheme
 The game features a black and light blue theme.
 
+### Card Designed
+For the design of the back of cards I used (https://pattern.monster/diamonds-2#google_vignette)
+![screenshot](assets/readme.img/backOfCard.png)
+
 ### Typography
 - **Oswald** (fallback: sans-serif) for body text.
 
