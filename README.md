@@ -1,131 +1,85 @@
-![CI logo](https://codeinstitute.s3.amazonaws.com/fullstack/ci_logo_small.png)
+# Memory Match Card
 
-Welcome Robert Matyas,
+**View Live Project:** [Memory Match Game](https://robmaty.github.io/memory-card-MS2/)
 
-This is the Code Institute student template for Gitpod. We have preinstalled all of the tools you need to get started. It's perfectly ok to use this template as the basis for your project submissions.
+## Introduction
+Memory Match Card is a simple yet challenging game that tests the user's ability to uncover and remember the placement of cards on a gameboard. The game offers a 9 different cards for match which challenges the player to remember most of them.
 
-You can safely delete this README.md file or change it for your own project. Please do read it at least once, though! It contains some important information about Gitpod and the extensions we use. Some of this information has been updated since the video content was created. The last update to this file was: **June 18, 2024**
+## Purpose
+memory Match Card is design to provide fun for all ages while helping players improve their short-term memory and cognitive skills by reinforcing pattern recognition.
 
-## Gitpod Reminders
+## User Experience (UX) 
+### User Stories
+- As a user, I want to quickly understand how to play.
+- As a user, I want to reset the game if I choose to start over.
+- As a user, I want a visually appealing game.
+- As a user, I want to play on multiple devices.
 
-To run a frontend (HTML, CSS, Javascript only) application in Gitpod, in the terminal, type:
+## Features
+### **Front Page** - Displays the game tittle and the game cards.
 
-`python3 -m http.server`
+### Game Screen
+- Display a 4X4 grid of 16 cards.
+- Show the point you achieved.
+- Provides a reset button and a menu button.
+- Provide a button to the Feedback form.
 
-A blue button should appear to click: _Make Public_,
+## Design
+### Color Scheme
+The game features a black and light blue theme.
 
-Another blue button should appear to click: _Open Browser_.
+### Typography
+- **Oswald** (fallback: sans-serif) for body text.
 
-To run a backend Python file, type `python3 app.py` if your Python file is named `app.py`, of course.
+### Wireframes
+All wireframes were created using **Balsamiq**.
 
-A blue button should appear to click: _Make Public_,
+## Technologies Used
+- **HTML5** for structure
+- **CSS** for styling
+- **JavaScript** for game functionality
 
-Another blue button should appear to click: _Open Browser_.
+## Tools & Libraries
+- **Font Awesome** for icons
+- **Git & GitHub** for version control and hosting
 
-By Default, Gitpod gives you superuser security privileges. Therefore, you do not need to use the `sudo` (superuser do) command in the bash terminal in any of the lessons.
+## Testing
+### Manual & Automated Testing
+- Ensured functionality of navigation, buttons, and game logic.
+- Verified cross-browser compatibility (Chrome, Firefox, Edge, Safari).
 
-To log into the Heroku toolbelt CLI:
+### Validator Testing
+- **HTML** - Validated with W3C Markup Validator.
+- **CSS** - Checked using W3C CSS Validator.
 
-1. Log in to your Heroku account and go to *Account Settings* in the menu under your avatar.
-2. Scroll down to the *API Key* and click *Reveal*
-3. Copy the key
-4. In Gitpod, from the terminal, run `heroku_config`
-5. Paste in your API key when asked
+### Fixed Bugs
+- Resolved card duplication issue in `createHardBoard()` function.
 
-You can now use the `heroku` CLI program - try running `heroku apps` to confirm it works. This API key is unique and private to you, so do not share it. If you accidentally make it public, you can create a new one with _Regenerate API Key_.
+## Deployment 
+### GitHub Pages
+1. Go to **GitHub Repository**.
+2. Navigate to **Settings** > **GitHub Pages**.
+3. Under "Source," select **Main Branch**.
+4. The site will be published with a public URL.
 
-### Connecting your Mongo database
+### Forking & Cloning the Repository
+#### Forking
+1. Log in to GitHub and navigate to the repository.
+2. Click **Fork** to create a copy in your account.
 
-- **Connect to Mongo CLI on a IDE**
-- navigate to your MongoDB Clusters Sandbox
-- click **"Connect"** button
-- select **"Connect with the MongoDB shell"**
-- select **"I have the mongo shell installed"**
-- choose **mongosh (2.0 or later)** for : **"Select your mongo shell version"**
-- choose option: **"Run your connection string in your command line"**
-- in the terminal, paste the copied code `mongo "mongodb+srv://<CLUSTER-NAME>.mongodb.net/<DBname>" --apiVersion 1 --username <USERNAME>`
-  - replace all `<angle-bracket>` keys with your own data
-- enter password _(will not echo **\*\*\*\*** on screen)_
+#### Cloning
+1. Copy the repository's HTTPS link.
+2. Open Git Bash and navigate to the desired directory.
+3. Run:
+   ```sh
+   git clone https://github.com/YOUR-USERNAME/YOUR-REPOSITORY
+   ```
 
-------
+   ## Credits
+### Code References
+- **W3Schools** - Flip effect for cards
+- **GeeksforGeeks** - Card shuffling logic
+- **Medium & SheCodes** - Timer implementation guidance
 
-## Release History
-
-We continually tweak and adjust this template to help give you the best experience. Here is the version history:
-
-**June 18, 2024,** Add Mongo back into template
-
-**June 14, 2024,** Temporarily remove Mongo until the key issue is resolved
-
-**May 28 2024:** Fix Mongo and Links installs
-
-**April 26 2024:** Update node version to 16
-
-**September 20 2023:** Update Python version to 3.9.17.
-
-**September 1 2021:** Remove `PGHOSTADDR` environment variable.
-
-**July 19 2021:** Remove `font_fix` script now that the terminal font issue is fixed.
-
-**July 2 2021:** Remove extensions that are not available in Open VSX.
-
-**June 30 2021:** Combined the P4 and P5 templates into one file, added the uptime script. See the FAQ at the end of this file.
-
-**June 10 2021:** Added: `font_fix` script and alias to fix the Terminal font issue
-
-**May 10 2021:** Added `heroku_config` script to allow Heroku API key to be stored as an environment variable.
-
-**April 7 2021:** Upgraded the template for VS Code instead of Theia.
-
-**October 21 2020:** Versions of the HTMLHint, Prettier, Bootstrap4 CDN and Auto Close extensions updated. The Python extension needs to stay the same version for now.
-
-**October 08 2020:** Additional large Gitpod files (`core.mongo*` and `core.python*`) are now hidden in the Explorer, and have been added to the `.gitignore` by default.
-
-**September 22 2020:** Gitpod occasionally creates large `core.Microsoft` files. These are now hidden in the Explorer. A `.gitignore` file has been created to make sure these files will not be committed, along with other common files.
-
-**April 16 2020:** The template now automatically installs MySQL instead of relying on the Gitpod MySQL image. The message about a Python linter not being installed has been dealt with, and the set-up files are now hidden in the Gitpod file explorer.
-
-**April 13 2020:** Added the _Prettier_ code beautifier extension instead of the code formatter built-in to Gitpod.
-
-**February 2020:** The initialisation files now _do not_ auto-delete. They will remain in your project. You can safely ignore them. They just make sure that your workspace is configured correctly each time you open it. It will also prevent the Gitpod configuration popup from appearing.
-
-**December 2019:** Added Eventyret's Bootstrap 4 extension. Type `!bscdn` in a HTML file to add the Bootstrap boilerplate. Check out the <a href="https://github.com/Eventyret/vscode-bcdn" target="_blank">README.md file at the official repo</a> for more options.
-
-------
-
-## FAQ about the uptime script
-
-**Why have you added this script?**
-
-It will help us to calculate how many running workspaces there are at any one time, which greatly helps us with cost and capacity planning. It will help us decide on the future direction of our cloud-based IDE strategy.
-
-**How will this affect me?**
-
-For everyday usage of Gitpod, it doesn’t have any effect at all. The script only captures the following data:
-
-- An ID that is randomly generated each time the workspace is started.
-- The current date and time
-- The workspace status of “started” or “running”, which is sent every 5 minutes.
-
-It is not possible for us or anyone else to trace the random ID back to an individual, and no personal data is being captured. It will not slow down the workspace or affect your work.
-
-**So….?**
-
-We want to tell you this so that we are being completely transparent about the data we collect and what we do with it.
-
-**Can I opt out?**
-
-Yes, you can. Since no personally identifiable information is being captured, we'd appreciate it if you let the script run; however if you are unhappy with the idea, simply run the following commands from the terminal window after creating the workspace, and this will remove the uptime script:
-
-```
-pkill uptime.sh
-rm .vscode/uptime.sh
-```
-
-**Anything more?**
-
-Yes! We'd strongly encourage you to look at the source code of the `uptime.sh` file so that you know what it's doing. As future software developers, it will be great practice to see how these shell scripts work.
-
----
-
-Happy coding!
+### Acknowledgments
+Special thanks to my **Tutor (Miguel)** and **Mentor (Mo Shami)** for their guidance throughout this project.
