@@ -58,6 +58,10 @@ Here are the models for the Game page and Feedback Page.
 ### Manual & Automated Testing
 - Ensured functionality of navigation, buttons, and game logic.
 - Verified cross-browser compatibility (Chrome, Firefox, Edge, Safari).
+### DevTools
+Lighthouse results
+![DevTools](assets/readme.img/DevTools.png "DevTools")
+
 
 ### Validator Testing
 - **HTML** - Validated with W3C Markup Validator.
@@ -92,6 +96,7 @@ Here are the models for the Game page and Feedback Page.
 
    ## Credits
 ### Code References
+- **•	Favicon.io** - images were used for the footer social-media links.
 - **W3Schools** - Flip effect for cards
 - **GeeksforGeeks** - Card shuffling logic
 - **Medium & SheCodes** - Timer implementation guidance
