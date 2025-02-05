@@ -8,7 +8,7 @@
 Memory Match Card is a simple yet challenging game that tests the user's ability to uncover and remember the placement of cards on a gameboard. The game offers a 9 different cards for match which challenges the player to remember most of them.
 
 ## Purpose
-memory Match Card is design to provide fun for all ages while helping players improve their short-term memory and cognitive skills by reinforcing pattern recognition.
+Memory Match Card is design to provide fun for all ages while helping players improve their short-term memory and cognitive skills by reinforcing pattern recognition.
 
 ## User Experience (UX) 
 ### User Stories
@@ -19,6 +19,12 @@ memory Match Card is design to provide fun for all ages while helping players im
 
 ## Features
 ### **Front Page** - Displays the game tittle and the game cards.
+
+![screenshot](assets/readme.img/firstPage.png)
+
+### **Feedback Page** - Displays a feedback form that the user can fill up with their experience about the game.
+
+![screenshot](assets/readme.img/FeedbackPage.png)
 
 ### Game Screen
 - Display a 4X4 grid of 16 cards.
@@ -35,8 +41,11 @@ The game features a black and light blue theme.
 
 ### Wireframes
 All wireframes were created using **Balsamiq**.
+Here are the models for the Game page and Feedback Page. 
+![wireframe](assets/readme.img/firstpage-example.png)
+![wireframe](assets/readme.img/feedback-page.png)
 
-## Technologies Used
+## Technologies/Languages Used
 - **HTML5** for structure
 - **CSS** for styling
 - **JavaScript** for game functionality
@@ -52,7 +61,11 @@ All wireframes were created using **Balsamiq**.
 
 ### Validator Testing
 - **HTML** - Validated with W3C Markup Validator.
+![Validator](assets/readme.img/htmlerrors.png "HTML")
+
 - **CSS** - Checked using W3C CSS Validator.
+![Validator](assets/readme.img/cssvalidator.png "CSS")
+
 
 ### Fixed Bugs
 - Resolved card duplication issue in `createHardBoard()` function.
