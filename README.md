@@ -2,6 +2,8 @@
 
 **View Live Project:** [Memory Match Game](https://robmaty.github.io/memory-card-MS2/)
 
+![screenshot](assets/readme.img/responsive.png)
+
 ## Introduction
 Memory Match Card is a simple yet challenging game that tests the user's ability to uncover and remember the placement of cards on a gameboard. The game offers a 9 different cards for match which challenges the player to remember most of them.
 
@@ -72,7 +74,7 @@ All wireframes were created using **Balsamiq**.
 2. Open Git Bash and navigate to the desired directory.
 3. Run:
    ```sh
-   git clone https://github.com/YOUR-USERNAME/YOUR-REPOSITORY
+   git clone https://robmaty.github.io/memory-card-MS2/
    ```
 
    ## Credits
