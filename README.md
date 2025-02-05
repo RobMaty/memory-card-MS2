@@ -82,17 +82,23 @@ Lighthouse results
 4. The site will be published with a public URL.
 
 ### Forking & Cloning the Repository
-#### Forking
-1. Log in to GitHub and navigate to the repository.
-2. Click **Fork** to create a copy in your account.
+### Cloning the Repository
 
-#### Cloning
-1. Copy the repository's HTTPS link.
-2. Open Git Bash and navigate to the desired directory.
-3. Run:
-   ```sh
-   git clone https://robmaty.github.io/memory-card-MS2/
-   ```
+To create a local clone:
+
+1. Log in to GitHub and locate the repository.
+2. At the top of the repository, click on "Code".
+3. From the dropdown menu under HTTPS, copy the link.
+4. On the IDE, create a directory where you want to clone the repository.
+5. Type `git clone` and paste the copied link.
+
+### Forking the Repository
+
+To fork the GitHub repository:
+
+1. Log in to GitHub and locate the repository.
+2. At the top of the repository, just above the "Settings" button on the menu, locate the "Fork" button.
+3. You should now have a copy of the original repository in your GitHub account.
 
    ## Credits
 ### Code References
